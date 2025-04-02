@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
 
-
+import LaptopCanvas from "./LaptopCanvas";
 //-----------------------------------------------
 //-----------------------------------------------
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <>
+      <LaptopCanvas />
+      <div>Hero section text</div>
+    </>
+  );
+};
 
 //-----------------------------------------------
-export default Hero
+export default Hero;
