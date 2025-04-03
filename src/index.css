@@ -38,7 +38,8 @@ body {
 
 
 .hero-div {
-  width: 80px;
-  height: 150px;
-  background-color: aliceblue;
+  padding: .5em;
+  background-color: rgb(202, 203, 204);
+  border-radius: 10px;
+  color: rgb(209, 255, 2);
 }
