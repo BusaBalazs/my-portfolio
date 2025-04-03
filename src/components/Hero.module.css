@@ -1,0 +1,44 @@
+.hero-section {
+  margin: 19em 1em 0 1em;
+  position: relative;
+  color: var(--text-dark);
+}
+
+.hero-card {
+  width: 210px;
+  padding: 1.5em 1em;
+  position: absolute;
+  top: -210px;
+  left: calc(50% - 85px);
+  text-align: center;
+  background-color: rgb(216, 216, 216);
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.hero-card h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hero-card img {
+  margin: 0.5em auto;
+  border-radius: 20px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+  opacity: 60%;
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.hire-me-btn {
+  width: 100%;
+  padding: .5em ;
+  background-color: var(--green);
+  font-weight: 800;
+  border-radius: 50px;
+  margin-top: 2em;
+}

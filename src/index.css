@@ -15,13 +15,22 @@
   text-rendering: optimizeLegibility;
   font-family: inherit;
   font-size: 1rem;
+  color: inherit;
 }
 
 /*****************************************************************
 ******************************************************************/
 :root {
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+
+  --color-bg-main: linear-gradient( rgb(58, 58, 58), rgba(36, 36, 36));
+  --text-white: white;
+  --text-dark: rgb(51, 51, 51);
+  --text-sec: rgb(194, 194, 194);
+  --green: rgb(85,255,102);
+
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,14 +41,28 @@
 /*****************************************************************
 ******************************************************************/
 body {
- width: 100vw;
- min-height: 100vh; 
+  min-height: 100vh;
+  background-image: var(--color-bg-main);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
 
+small{
+  font-size: .8rem;
+}
+
+/*****************************************************************
+******************************************************************/
+/*
 .hero-div {
   padding: .5em;
   background-color: rgb(202, 203, 204);
   border-radius: 10px;
   color: rgb(209, 255, 2);
 }
+*/

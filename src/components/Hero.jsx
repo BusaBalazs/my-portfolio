@@ -1,14 +1,23 @@
 import React from "react";
 
-import LaptopCanvas from "./LaptopCanvas";
+import classes from "./Hero.module.css";
+import { laptop, photo } from "../assets";
 //-----------------------------------------------
 //-----------------------------------------------
 const Hero = () => {
   return (
-    <>
-      <LaptopCanvas />
-      <div>Hero section text</div>
-    </>
+    <section className={classes["hero-section"]}>
+      <img src={laptop} alt="laptop" />
+      <div className={classes["hero-card"]}>
+        <h2>Grafikus & Fejlesztő</h2>
+        <img src={photo} alt="" />
+        <h1>John Franks</h1>
+        <p>info.info@gmail.com</p>
+        <button className={classes["hire-me-btn"]}>
+          <a href="mailto:fishbalazs@gmail.com">Üzenet</a>
+        </button>
+      </div>
+    </section>
   );
 };
 
